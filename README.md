@@ -1,4 +1,4 @@
-# revizto-mobile-tests
+# revizto-project-mobile-tests
 
 Mobile autotests project for [Revizto](https://revizto.com/) (landing page mobile version).
 
