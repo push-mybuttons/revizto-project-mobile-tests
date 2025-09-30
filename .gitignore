@@ -22,3 +22,9 @@ Thumbs.db
 
 # Other
 *.swp
+
+# Test Results
+allure-results/
+
+# VS Code
+.vscode/
