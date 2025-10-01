@@ -137,72 +137,7 @@ revizto-project-mobile-tests/
 ./gradlew cleanAllure
 ```
 
----
-
-## 🔄 Jenkins Integration
-
-### Jenkins Job
-
-Настроен Jenkins Job для автоматического запуска тестов:
-
-**🔗 Ссылка на Job:** `[Вставьте ссылку на ваш Jenkins Job]`
-
-### Параметры запуска в Jenkins:
-
-```groovy
-parameters {
-    choice(name: 'ENVIRONMENT', choices: ['local', 'remote'], description: 'Выбор окружения')
-}
-```
-
-### Пример Pipeline:
-
-```groovy
-pipeline {
-    agent any
-    
-    parameters {
-        choice(name: 'ENVIRONMENT', choices: ['local', 'remote'], 
-               description: 'Выбор окружения для запуска тестов')
-    }
-    
-    stages {
-        stage('Checkout') {
-            steps {
-                git 'https://github.com/your-repo/revizto-project-mobile-tests.git'
-            }
-        }
-        
-        stage('Run Tests') {
-            steps {
-                sh "./gradlew clean ${params.ENVIRONMENT}Test"
-            }
-        }
-        
-        stage('Generate Allure Report') {
-            steps {
-                allure includeProperties: false,
-                       jdk: '',
-                       results: [[path: 'build/allure-results']]
-            }
-        }
-    }
-}
-```
-
-### 📸 Скриншот Jenkins Job:
-
-```
-[Вставьте скриншот вашего Jenkins Job]
-```
-
----
-
 ## 📊 Allure отчет
-
-### Примеры отчетов:
-
-**🔗 Ссылка на Allure Report в Jenkins:** `[Вставьте ссылку на Allure Report]`
 
 ### Содержание отчета:
 
@@ -222,7 +157,8 @@ pipeline {
 ### 📸 Скриншот Allure Report:
 
 ```
-[Вставьте скриншот Allure отчета с результатами тестов]
+<img width="1510" height="866" alt="image" src="https://github.com/user-attachments/assets/d3465a17-ee05-4608-819b-7dc45790aaf6" />
+
 ```
 
 ### Пример отчета с группировкой:
@@ -233,64 +169,6 @@ pipeline {
     - **Story**: Проверка навигации
     - **Story**: Проверка интерактивных элементов
 
----
-
-## 🎯 Особенности реализации
-
-### 1. Конфигурация через Owner
-
-Используется библиотека **Owner** для удобного управления конфигурацией:
-
-```java
-@Config.Sources({"classpath:remote.properties", "classpath:local.properties"})
-public interface MobileConfig extends Config {
-    @Key("baseUrl")
-    @DefaultValue("https://revizto.com")
-    String baseUrl();
-}
-```
-
-### 2. Два драйвера для разных окружений
-
-- **LocalMobileDriver** - Chrome с мобильной эмуляцией (iPhone 12 Pro)
-- **BrowserstackMobileDriver** - реальные устройства в облаке
-
-### 3. BaseTest с автоматической конфигурацией
-
-```java
-@BeforeAll
-public static void setUp() {
-    // Автоматический выбор драйвера на основе environment
-    if (isRemoteRun) {
-        Configuration.browser = BrowserstackMobileDriver.class.getName();
-    } else {
-        Configuration.browser = LocalMobileDriver.class.getName();
-    }
-}
-
-@AfterEach
-public void tearDown() {
-    // Добавление Allure Attachments
-    // Закрытие браузера после каждого теста
-    closeWebDriver();
-}
-```
-
-### 4. Allure Steps для читаемости
-
-```java
-step("Проверяем заголовок с BIM", () -> {
-    $("h1").shouldHave(text("Unifying BIM Intelligence across 2D and 3D"));
-});
-```
-
-### 5. Автоматические Attachments
-
-- Скриншот добавляется автоматически после каждого теста
-- Видео добавляется только для Browserstack
-- Пауза 3 секунды для обработки видео на сервере
-
----
 
 ## 📝 Требования
 
@@ -312,15 +190,9 @@ browserstack.key=your_access_key
 
 ## 👨‍💻 Автор
 
-**QA Engineer**  
+**MariiaP**  
 Дипломный проект по автоматизации тестирования
 
 ---
 
-## 📞 Контакты и ссылки
-
-- **Jenkins Job:** `[Ваша ссылка]`
-- **Allure Report:** `[Ваша ссылка]`
-- **Browserstack Dashboard:** https://automate.browserstack.com/dashboard
-- **Revizto Website:** https://revizto.com
 
