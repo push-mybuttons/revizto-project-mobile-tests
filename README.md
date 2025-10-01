@@ -156,10 +156,9 @@ revizto-project-mobile-tests/
 
 ### 📸 Скриншот Allure Report:
 
-```
-<img width="1510" height="866" alt="image" src="https://github.com/user-attachments/assets/d3465a17-ee05-4608-819b-7dc45790aaf6" />
 
-```
+<img width="1510" height="866" alt="image" src="https://github.com/user-attachments/assets/d3465a17-ee05-4608-819b-7dc45790aaf6"/>
+
 
 ### Пример отчета с группировкой:
 
