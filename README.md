@@ -28,7 +28,7 @@
 
 <p>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" title="Java" alt="Java" width="40" height="40"/>&nbsp;
-<img src="https://github.com/selenide/selenide-logo/raw/main/logo/selenide-logo-128x128.png" title="Selenide" alt="Selenide" width="40" height="40"/>&nbsp;
+<img src="https://raw.githubusercontent.com/push-mybuttons/resources/refs/heads/main/icons/Selenide.svg" title="Selenide" alt="Selenide" width="40" height="40";/>&nbsp;
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gradle/gradle-original.svg" title="Gradle" alt="Gradle" width="40" height="40"/>&nbsp;
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/junit/junit-original.svg" title="JUnit5" alt="JUnit5" width="40" height="40"/>&nbsp;
 <img src="https://avatars.githubusercontent.com/u/5879127?s=200&v=4" title="Allure Report" alt="Allure Report" width="40" height="40"/>&nbsp;
