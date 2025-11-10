@@ -144,7 +144,7 @@ revizto-project-mobile-tests/
 Проект полностью готов к интеграции с Jenkins для автоматического запуска тестов в CI/CD pipeline.
 
 [![Jenkins](https://img.shields.io/badge/Jenkins-Job-blue?logo=jenkins)](https://jenkins.autotests.cloud/job/035-mariia_p-mobile/)
-[![Allure Report](https://img.shields.io/badge/Allure-Report-yellow?logo=qameta)](https://jenkins.autotests.cloud/job/035-mariia_p-mobile/allure/)
+[![Allure Report](https://img.shields.io/badge/Allure-Report-yellow?logo=qameta)](https://jenkins.autotests.cloud/job/035-mariia_p-mobile/1/allure/)
 
 ### 🔗 Jenkins Job
 
