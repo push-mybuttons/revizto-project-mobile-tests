@@ -3,7 +3,7 @@
 Автоматизированное тестирование мобильной версии сайта [Revizto](https://revizto.com) с использованием Selenide, JUnit 5 и Allure Reports.
 
 ![Java](https://img.shields.io/badge/Java-17-orange)
-![Selenide](https://img.shields.io/badge/Selenide-6.19.1-green)
+![Selenide](https://github.com/push-mybuttons/resources/blob/main/icons/Selenide.svg)
 ![JUnit5](https://img.shields.io/badge/JUnit-5.9.3-blue)
 ![Gradle](https://img.shields.io/badge/Gradle-8.10-yellow)
 
@@ -36,12 +36,12 @@
 ### Основной стек:
 
 - **Java 17** - язык программирования
-- **Selenide 6.19.1** - фреймворк для автоматизации UI тестов
+- **Selenide** - фреймворк для автоматизации UI тестов
 - **JUnit 5** - фреймворк для запуска тестов
-- **Gradle 8.10** - система сборки
-- **Allure Reports 2.21.0** - система отчетности
-- **Owner 1.0.12** - библиотека для работы с конфигурацией
-- **WebDriverManager 5.3.2** - автоматическое управление драйверами
+- **Gradle** - система сборки
+- **Allure Reports** - система отчетности
+- **Owner** - библиотека для работы с конфигурацией
+- **WebDriverManager** - автоматическое управление драйверами
 - **Browserstack** - облачная платформа для удаленного запуска тестов
 - **Jenkins** - CI/CD для автоматического запуска тестов
 
@@ -143,10 +143,13 @@ revizto-project-mobile-tests/
 
 Проект полностью готов к интеграции с Jenkins для автоматического запуска тестов в CI/CD pipeline.
 
-### 📄 Файлы для Jenkins
+[![Jenkins](https://img.shields.io/badge/Jenkins-Job-blue?logo=jenkins)](https://jenkins.autotests.cloud/job/035-mariia_p-mobile/)
+[![Allure Report](https://img.shields.io/badge/Allure-Report-yellow?logo=qameta)](https://jenkins.autotests.cloud/job/035-mariia_p-mobile/allure/)
 
-- **`Jenkinsfile`** - готовый Pipeline для Jenkins с параметрами
-- **`JENKINS_SETUP.md`** - подробная документация по настройке Jenkins Job
+### 🔗 Jenkins Job
+
+**Ссылка на активную Jenkins Job:** [035-mariia_p-mobile](https://jenkins.autotests.cloud/job/035-mariia_p-mobile/)
+
 
 ### 🚀 Быстрый старт
 
@@ -214,7 +217,7 @@ PLATFORM_VERSION: (оставить пустым)
 
 ### Примеры отчетов:
 
-**🔗 Ссылка на Allure Report в Jenkins:** `[Вставьте ссылку на Allure Report]`
+**🔗 Ссылка на Allure Report в Jenkins:** [View Allure Report](https://jenkins.autotests.cloud/job/035-mariia_p-mobile/allure/)
 
 ### Содержание отчета:
 
@@ -331,8 +334,8 @@ browserstack.key=your_access_key
 
 ## 📞 Контакты и ссылки
 
-- **Jenkins Job:** `[Ваша ссылка]`
-- **Allure Report:** `[Ваша ссылка]`
+- **Jenkins Job:** [035-mariia_p-mobile](https://jenkins.autotests.cloud/job/035-mariia_p-mobile/)
+- **Allure Report:** [View Allure Report](https://jenkins.autotests.cloud/job/035-mariia_p-mobile/allure/)
 - **Browserstack Dashboard:** https://automate.browserstack.com/dashboard
 - **Revizto Website:** https://revizto.com
 
