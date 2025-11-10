@@ -1,9 +1,12 @@
-# 📱 Revizto Mobile Tests - Дипломный проект
+<p align="center"> 
+ <img src="https://revizto.com/wp-content/uploads/2021/02/logo.svg" title="Revizto" alt="Revizto" width="236" height="120" />
+</p>
+
+# 📱 Revizto Mobile Tests
 
 Автоматизированное тестирование мобильной версии сайта [Revizto](https://revizto.com) с использованием Selenide, JUnit 5 и Allure Reports.
 
 ![Java](https://img.shields.io/badge/Java-17-orange)
-![Selenide](https://github.com/push-mybuttons/resources/blob/main/icons/Selenide.svg)
 ![JUnit5](https://img.shields.io/badge/JUnit-5.9.3-blue)
 ![Gradle](https://img.shields.io/badge/Gradle-8.10-yellow)
 
@@ -24,13 +27,13 @@
 ## 🛠 Технологии и инструменты
 
 <p>
-<img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg" title="Java" alt="Java" width="40" height="40"/>&nbsp;
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" title="Java" alt="Java" width="40" height="40"/>&nbsp;
 <img src="https://github.com/selenide/selenide-logo/raw/main/logo/selenide-logo-128x128.png" title="Selenide" alt="Selenide" width="40" height="40"/>&nbsp;
-<img src="https://github.com/devicons/devicon/blob/master/icons/gradle/gradle-original.svg" title="Gradle" alt="Gradle" width="40" height="40"/>&nbsp;
-<img src="https://github.com/devicons/devicon/blob/master/icons/junit/junit-original.svg" title="JUnit5" alt="JUnit5" width="40" height="40"/>&nbsp;
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gradle/gradle-original.svg" title="Gradle" alt="Gradle" width="40" height="40"/>&nbsp;
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/junit/junit-original.svg" title="JUnit5" alt="JUnit5" width="40" height="40"/>&nbsp;
 <img src="https://avatars.githubusercontent.com/u/5879127?s=200&v=4" title="Allure Report" alt="Allure Report" width="40" height="40"/>&nbsp;
 <img src="https://avatars.githubusercontent.com/u/1119453?s=200&v=4" title="Browserstack" alt="Browserstack" width="40" height="40"/>&nbsp;
-<img src="https://github.com/devicons/devicon/blob/master/icons/jenkins/jenkins-original.svg" title="Jenkins" alt="Jenkins" width="40" height="40"/>&nbsp;
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jenkins/jenkins-original.svg" title="Jenkins" alt="Jenkins" width="40" height="40"/>&nbsp;
 </p>
 
 ### Основной стек:
