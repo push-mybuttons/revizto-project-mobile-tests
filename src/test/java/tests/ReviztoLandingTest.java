@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @Epic("Мобильное тестирование Revizto")
 @Feature("Лендинг страница")
-@Owner("QA Engineer")
+@Owner("MariiaP")
 public class ReviztoLandingTest extends BaseTest {
 
     @Test
@@ -42,7 +42,7 @@ public class ReviztoLandingTest extends BaseTest {
     @Test
     @Story("Проверка навигации")
     @DisplayName("Проверка элементов навигации и интерфейса")
-    @Severity(SeverityLevel.NORMAL)
+    @Severity(SeverityLevel.CRITICAL)
     void checkNavigationAndInterface() {
         step("Проверяем наличие навигации", () -> {
             SelenideElement mobileMenuButton = $("button.mobilenav");
