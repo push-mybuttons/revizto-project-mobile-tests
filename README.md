@@ -126,34 +126,6 @@
 
 **Ссылка на активную Jenkins Job:** [035-mariia_p-mobile](https://jenkins.autotests.cloud/job/035-mariia_p-mobile/)
 
-
-### 🚀 Быстрый старт
-
-1. Создайте новый **Pipeline Job** в Jenkins
-2. Укажите репозиторий: `https://github.com/push-mybuttons/revizto-project-mobile-tests.git`
-3. Script Path: `Jenkinsfile`
-4. Сохраните и запустите с параметрами
-
-### ⚙️ Параметры запуска
-
-| Параметр | Значения | Описание |
-|----------|----------|----------|
-| `ENVIRONMENT` | `local`, `remote` | Окружение для запуска тестов |
-| `TASK` | `test`, `clean test` | Gradle задача |
-| `DEVICE_NAME` | Строка (опционально) | Имя устройства |
-| `PLATFORM_VERSION` | Строка (опционально) | Версия платформы |
-
-### 📊 Возможности Pipeline
-
-- ✅ Автоматическая сборка и запуск тестов
-- ✅ Генерация Allure отчетов
-- ✅ Архивирование артефактов
-- ✅ Публикация JUnit результатов
-- ✅ Параметризованный запуск
-- ✅ Поддержка локального и Browserstack окружений
-
-### 🔗 Пример использования
-
 **Запуск на Browserstack:**
 ```bash
 ENVIRONMENT: remote
@@ -161,28 +133,13 @@ TASK: clean test
 DEVICE_NAME: Samsung Galaxy S23
 PLATFORM_VERSION: 13.0
 ```
-
-**Локальный запуск:**
-```bash
-ENVIRONMENT: local
-TASK: test
-DEVICE_NAME: (оставить пустым)
-PLATFORM_VERSION: (оставить пустым)
-```
-
-### 📸 Скриншот Jenkins Job:
-
-```
-[Вставьте скриншот вашего Jenkins Job]
-```
-
 ---
 
 ## 📊 Allure отчет
 
 ### Примеры отчетов:
 
-**🔗 Ссылка на Allure Report в Jenkins:** [View Allure Report](https://jenkins.autotests.cloud/job/035-mariia_p-mobile/allure/)
+**🔗 Ссылка на Allure Report в Jenkins:** [View Allure Report](https://jenkins.autotests.cloud/job/035-mariia_p-mobile/1/allure/)
 
 ### Содержание отчета:
 
@@ -204,8 +161,6 @@ PLATFORM_VERSION: (оставить пустым)
 <p align="center">
   <img src="images/allure-report.png" alt="Allure Report Screenshot" width="100%"/>
 </p>
-
-```
 
 ### Пример отчета с группировкой:
 
@@ -294,25 +249,15 @@ browserstack.key=your_access_key
 
 ## 👨‍💻 Автор
 
-**Mariia Pupkova**  
-Дипломный проект по автоматизации тестирования
+**MariiaP**  
 
 ---
 
 ## 📞 Контакты и ссылки
 
 - **Jenkins Job:** [035-mariia_p-mobile](https://jenkins.autotests.cloud/job/035-mariia_p-mobile/)
-- **Allure Report:** [View Allure Report](https://jenkins.autotests.cloud/job/035-mariia_p-mobile/allure/)
+- **Allure Report:** [View Allure Report](https://jenkins.autotests.cloud/job/035-mariia_p-mobile/1/allure/)
 - **Browserstack Dashboard:** https://automate.browserstack.com/dashboard
 - **Revizto Website:** https://revizto.com
-
----
-
-## 📈 Статистика проекта
-
-- Классов с тестами: **1**
-- Тестовых методов: **3**
-- Строк кода: **~300**
-- Покрытие функционала: **Landing Page Mobile**
 
 ---
